@@ -103,7 +103,7 @@ const Collection = () => {
 
         {/* Subcategory Filter*/}
         <div className={`border border-gray-300 pl-5 py-3 my-5  ${showFilter? '' : 'hidden'} sm:block`}>
-          <p className="mb-3 text-sm font-medium">TYPE</p>
+          <p className="mb-3 text-sm font-medium">SUB CATEGORY</p>
             <div>
               <p className="flex gap-2">
                 <input className='w-3' type="checkbox" value = {'Topwear'} onChange={toggleSubCategory}/> Topwear
