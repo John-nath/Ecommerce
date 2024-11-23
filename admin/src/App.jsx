@@ -6,8 +6,7 @@ import Add from './pages/Add'
 import List from './pages/List'
 import Orders from './pages/Orders'
 import Login from './components/Login'
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+const { ToastContainer } = require('react-toastify');
 
 export const backendUrl = import.meta.env.VITE_BACKEND_URL
 export const currency = '$'
